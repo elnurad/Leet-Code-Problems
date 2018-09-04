@@ -26,9 +26,9 @@ var twoSum = function(nums, target) {
     }
     
 };
-//To solve the problem we first create an empty array where we can store returned indices.
-//We have a nested for loop with a counter i and a counter j. We parshe through the array
-//with nums[i] and if at any moment nums[i] + nums[j] equals target number, it means that we found our pair and we return indices for these two numbers.
-//to ensure that the function does not add a number to itself, we set a condition that nums[i] should not be equal to nums[j]
-//we push the correct indices to our empty array and return the updated array. 
+/*To solve the problem we first create an empty array where we can store returned indices.
+We have a nested for loop with a counter i and a counter j. We parse through the array with nums[i] and 
+if at any moment nums[i] + nums[j] equals our target number, it means that we found our pair of numbers and we return indices 
+for these two numbers. To ensure that the function does not add a number to itself, we set a condition that nums[i] should not be equal
+to nums[j]. We push the correct indices to our empty array and return the updated array. */
 
